@@ -1,0 +1,265 @@
+html{
+    font-family: Lato, Sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar{
+    max-width:640px;
+    margin:50px auto;
+    padding:0 20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-size: 24px;
+
+}
+
+.navbar__brand{
+    display:flex;
+    align-items:center;
+}
+
+.navbar__logo{
+    margin: inherit;
+    margin-right:40px;
+    
+}
+
+.navbar__navigation{
+    display:flex;
+    flex-direction:row;
+    padding: 0;
+    list-style:none;
+    color: #5c6b70;
+}
+
+.navbar__navigation-item{
+    margin-left:50px;
+}
+
+.navbar__navigation-item{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar__link{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.main{
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0 auto ;
+
+}
+
+.form{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+
+.form_input{
+    width: 100%;
+    margin:auto;
+}
+
+.form__label{
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+.form__textarea{
+    
+    width : inherit;
+    font-size:18px;
+    padding:  12px 20px;
+    box-sizing:border-box;
+    border :none;
+    background-color: #dae7e7;
+    margin-bottom: 5px;
+    margin: auto;
+    
+
+}
+
+
+
+.form__submit{
+    background-color: #3cd0ff;
+    border: none;
+    font-size:18px;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.form__submit:hover{
+    background-color: #18c1e1;
+}
+
+.entry{
+    margin-top: 50px;
+}
+
+.entry__title{
+    display: inline;
+    font-size: 18px;
+}
+
+.entry__date{
+    color:#5c6b70;
+}
+
+.entry__content{
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.footer{
+    background-color: #323f43;
+    padding: 55px 50px;
+    margin-top: 80px;
+    border-top: 4px solid black;
+    color: white;
+    font-size: 12px;
+
+}
+
+.footer .footer__left,
+.footer .footer__center,
+.footer .footer__right{
+    display:inline-block;
+    vertical-align:top;
+}
+
+.footer .footer__left{
+    width:40%
+}
+
+.footer h3{
+    color:#ffffff;
+    font: normal 50px 'Cookie', cursive;
+    margin: 0;
+}
+
+.footer h3 span{
+    color:  #3cd0ff;
+
+}
+
+.footer__para{
+    display: inline-block;
+    color:khaki;
+    vertical-align:left;
+    margin:  20px 0px;
+    font-size:20px;
+    font-family: sans-serif;
+}
+
+.footer .footer__center{
+    width:35%;
+}
+
+.footer .footer__center i{
+    background-color:  #acb5bb;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer .footer__center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer .footer__center p{
+    display:inline-block;
+    color:#ffffff;
+    vertical-align:middle;
+    margin:0;
+    color:khaki;
+}
+
+.footer .footer__center p span{
+    display:block;
+    font-weight: bold;
+    font-size:14px;
+    color:#ffffff;
+    line-height: 2;
+}
+
+.footer .footer__center p a{
+    color:rgb(151, 151, 177);
+    font-size:17px;
+    text-decoration:none;
+    
+}
+
+.footer .footer__center a:hover{
+    color:rgb(8, 252, 240);
+    text-decoration:underline ;
+}
+
+.footer .footer__right{
+    width: 20%;
+}
+
+.footer .footer__about{
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: bold;
+    margin:0;
+}
+
+.footer .footer__about span{
+    display:block;
+    color:#ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .footer__icons{
+    margin-top:25px;
+}
+
+.footer .footer__icons a{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    cursor: pointer;
+    background-color:#6d6f70;
+    border-radius: 2px;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(9, 243, 231);
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
